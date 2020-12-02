@@ -1,7 +1,2 @@
-# Ignore all files without extension #
-# Ignore all
-*
-# Unignore all with extensions
-!*.*
-# Unignore all dirs
-!*/
+# Ignore compiled files
+build/*
