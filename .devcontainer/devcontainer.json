@@ -20,6 +20,7 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"ms-vscode.cpptools",
+		"jbenden.c-cpp-flylint",
 		"usernamehw.errorlens",
 		"sainnhe.gruvbox-material",
 		"robbowen.synthwave-vscode",

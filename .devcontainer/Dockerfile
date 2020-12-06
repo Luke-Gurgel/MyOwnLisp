@@ -6,6 +6,8 @@ FROM mcr.microsoft.com/vscode/devcontainers/cpp:0-${VARIANT}
 
 RUN chsh -s $(which zsh)
 
+RUN sudo apt-get install clang
+RUN sudo apt-get install cppcheck
 RUN sudo apt-get install build-essential
 # [Optional] Uncomment this section to install additional packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
