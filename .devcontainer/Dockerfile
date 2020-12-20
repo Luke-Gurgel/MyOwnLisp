@@ -10,7 +10,7 @@ RUN sudo apt-get update
 
 RUN sudo apt-get install clang
 RUN sudo apt-get install cppcheck
-RUN sudo apt install libeditline-dev
+RUN sudo apt install -y libeditline-dev
 RUN sudo apt-get install build-essential
 # [Optional] Uncomment this section to install additional packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
