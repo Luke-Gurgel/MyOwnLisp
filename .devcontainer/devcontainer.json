@@ -16,7 +16,15 @@
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/zsh",
 		"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 2, ColumnLimit: 0 }",
-		"c-cpp-flylint.flexelint.enable": false
+		"c-cpp-flylint.flexelint.enable": false,
+		"C_Cpp.default.includePath": [
+			"/usr/lib/gcc/x86_64-linux-gnu/8/include",
+			"/usr/local/include",
+			"/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed",
+			"/usr/include/x86_64-linux-gnu",
+			"/usr/include"
+		],
+		"C_Cpp.default.intelliSenseMode": "gcc-x64"
 	},
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
